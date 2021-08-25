@@ -1,0 +1,22 @@
+= UE4 Pak File Examples
+
+This repository contains examples for Unreal Engine 4 Pak files used in testing.
+
+Encryption key:: aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWk=
+
+.Pak Content
+|====
+| File | Content
+| test.txt | "foo bar"
+| lorem/lorem-ipsum.txt | 12221 chars of lorem ipsum
+| image/lorem-pixel.png | image from link:lorempixel.com[]
+|====
+
+.Files
+|====
+| File | Index Encrypted | Data Encrypted | Compressed
+| test_v9.pak | false | false | false
+| test_encrypted_v9.pak | false | true | false
+| test_compressed_v9.pak | false | false | true
+| test_compressed_encrypted_v9.pak | false | true | true
+|====
