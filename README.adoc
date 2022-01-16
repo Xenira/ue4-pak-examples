@@ -1,4 +1,7 @@
 = UE4 Pak File Examples
+L. Sprengel <l.sprengel@pm.me>
+v1.0
+:icons: font
 
 This repository contains examples for Unreal Engine 4 Pak files used in testing.
 
@@ -11,6 +14,21 @@ Encryption key:: aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWk=
 | link:original-files/lorem/lorem-ipsum.txt[] | 12221 chars of lorem ipsum
 | link:original-files/image/lorem-pixel.png[] | image from link:lorempixel.com[]
 |====
+
+.Version 5 Pak Files
+|====
+| File | Index Encrypted | Data Encrypted | Compressed
+| link:v5/test_v5.pak[] | false | false | false
+| link:v5/test_compressed_v5.pak[] | false | false | true
+| link:v5/test_encrypted_v5.pak[] | false | true | false
+| link:v5/test_compressed_encrypted_v5.pak[] | false | true | true
+| link:v5/test_encindex_v5.pak[] | true | false | false
+| link:v5/test_compressed_encindex_v5.pak[] | true | false | true
+| link:v5/test_encrypted_encindex_v5.pak[] | true | true | false
+| link:v5/test_compressed_encrypted_encindex_v5.pak[] | true | true | true
+|====
+
+NOTE: Version 6 PAK files are not used in any mayjor UE4 version and therefore not included here.
 
 .Version 7 Pak Files
 |====
