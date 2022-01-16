@@ -18,14 +18,14 @@ Encryption key:: aWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWk=
 .Version 5 Pak Files
 |====
 | File | Index Encrypted | Data Encrypted | Compressed
-| link:v5/test_v5.pak[] | false | false | false
-| link:v5/test_compressed_v5.pak[] | false | false | true
-| link:v5/test_encrypted_v5.pak[] | false | true | false
-| link:v5/test_compressed_encrypted_v5.pak[] | false | true | true
-| link:v5/test_encindex_v5.pak[] | true | false | false
-| link:v5/test_compressed_encindex_v5.pak[] | true | false | true
-| link:v5/test_encrypted_encindex_v5.pak[] | true | true | false
-| link:v5/test_compressed_encrypted_encindex_v5.pak[] | true | true | true
+| link:v5/test_v5.pak[] | ❌ | ❌ | ❌
+| link:v5/test_compressed_v5.pak[] | ❌ | ❌ | ✔️
+| link:v5/test_encrypted_v5.pak[] | ❌ | ✔️ | ❌
+| link:v5/test_compressed_encrypted_v5.pak[] | ❌ | ✔️ | ✔️
+| link:v5/test_encindex_v5.pak[] | ✔️ | ❌ | ❌
+| link:v5/test_compressed_encindex_v5.pak[] | ✔️ | ❌ | ✔️
+| link:v5/test_encrypted_encindex_v5.pak[] | ✔️ | ✔️ | ❌
+| link:v5/test_compressed_encrypted_encindex_v5.pak[] | ✔️ | ✔️ | ✔️
 |====
 
 NOTE: Version 6 PAK files are not used in any mayjor UE4 version and therefore not included here.
@@ -33,51 +33,51 @@ NOTE: Version 6 PAK files are not used in any mayjor UE4 version and therefore n
 .Version 7 Pak Files
 |====
 | File | Index Encrypted | Data Encrypted | Compressed
-| link:v7/test_v7.pak[] | false | false | false
-| link:v7/test_compressed_v7.pak[] | false | false | true
-| link:v7/test_encrypted_v7.pak[] | false | true | false
-| link:v7/test_compressed_encrypted_v7.pak[] | false | true | true
-| link:v7/test_encindex_v7.pak[] | true | false | false
-| link:v7/test_compressed_encindex_v7.pak[] | true | false | true
-| link:v7/test_encrypted_encindex_v7.pak[] | true | true | false
-| link:v7/test_compressed_encrypted_encindex_v7.pak[] | true | true | true
+| link:v7/test_v7.pak[] | ❌ | ❌ | ❌
+| link:v7/test_compressed_v7.pak[] | ❌ | ❌ | ✔️
+| link:v7/test_encrypted_v7.pak[] | ❌ | ✔️ | ❌
+| link:v7/test_compressed_encrypted_v7.pak[] | ❌ | ✔️ | ✔️
+| link:v7/test_encindex_v7.pak[] | ✔️ | ❌ | ❌
+| link:v7/test_compressed_encindex_v7.pak[] | ✔️ | ❌ | ✔️
+| link:v7/test_encrypted_encindex_v7.pak[] | ✔️ | ✔️ | ❌
+| link:v7/test_compressed_encrypted_encindex_v7.pak[] | ✔️ | ✔️ | ✔️
 |====
 
 .Version 8 Pak Files
 |====
 | File | Index Encrypted | Data Encrypted | Compressed
-| link:v8/test_v8.pak[] | false | false | false
-| link:v8/test_compressed_v8.pak[] | false | false | true
-| link:v8/test_encrypted_v8.pak[] | false | true | false
-| link:v8/test_compressed_encrypted_v8.pak[] | false | true | true
-| link:v8/test_encindex_v8.pak[] | true | false | false
-| link:v8/test_compressed_encindex_v8.pak[] | true | false | true
-| link:v8/test_encrypted_encindex_v8.pak[] | true | true | false
-| link:v8/test_compressed_encrypted_encindex_v8.pak[] | true | true | true
+| link:v8/test_v8.pak[] | ❌ | ❌ | ❌
+| link:v8/test_compressed_v8.pak[] | ❌ | ❌ | ✔️
+| link:v8/test_encrypted_v8.pak[] | ❌ | ✔️ | ❌
+| link:v8/test_compressed_encrypted_v8.pak[] | ❌ | ✔️ | ✔️
+| link:v8/test_encindex_v8.pak[] | ✔️ | ❌ | ❌
+| link:v8/test_compressed_encindex_v8.pak[] | ✔️ | ❌ | ✔️
+| link:v8/test_encrypted_encindex_v8.pak[] | ✔️ | ✔️ | ❌
+| link:v8/test_compressed_encrypted_encindex_v8.pak[] | ✔️ | ✔️ | ✔️
 |====
 
 .Version 9 Pak Files
 |====
 | File | Index Encrypted | Data Encrypted | Compressed
-| link:v9/test_v9.pak[] | false | false | false
-| link:v9/test_compressed_v9.pak[] | false | false | true
-| link:v9/test_encrypted_v9.pak[] | false | true | false
-| link:v9/test_compressed_encrypted_v9.pak[] | false | true | true
-| link:v9/test_encindex_v9.pak[] | true | false | false
-| link:v9/test_compressed_encindex_v9.pak[] | true | false | true
-| link:v9/test_encrypted_encindex_v9.pak[] | true | true | false
-| link:v9/test_compressed_encrypted_encindex_v9.pak[] | true | true | true
+| link:v9/test_v9.pak[] | ❌ | ❌ | ❌
+| link:v9/test_compressed_v9.pak[] | ❌ | ❌ | ✔️
+| link:v9/test_encrypted_v9.pak[] | ❌ | ✔️ | ❌
+| link:v9/test_compressed_encrypted_v9.pak[] | ❌ | ✔️ | ✔️
+| link:v9/test_encindex_v9.pak[] | ✔️ | ❌ | ❌
+| link:v9/test_compressed_encindex_v9.pak[] | ✔️ | ❌ | ✔️
+| link:v9/test_encrypted_encindex_v9.pak[] | ✔️ | ✔️ | ❌
+| link:v9/test_compressed_encrypted_encindex_v9.pak[] | ✔️ | ✔️ | ✔️
 |====
 
 .Version 11 Pak Files
 |====
 | File | Index Encrypted | Data Encrypted | Compressed
-| link:v11/test_v11.pak[] | false | false | false
-| link:v11/test_compressed_v11.pak[] | false | false | true
-| link:v11/test_encrypted_v11.pak[] | false | true | false
-| link:v11/test_compressed_encrypted_v11.pak[] | false | true | true
-| link:v11/test_encindex_v11.pak[] | true | false | false
-| link:v11/test_compressed_encindex_v11.pak[] | true | false | true
-| link:v11/test_encrypted_encindex_v11.pak[] | true | true | false
-| link:v11/test_compressed_encrypted_encindex_v11.pak[] | true | true | true
+| link:v11/test_v11.pak[] | ❌ | ❌ | ❌
+| link:v11/test_compressed_v11.pak[] | ❌ | ❌ | ✔️
+| link:v11/test_encrypted_v11.pak[] | ❌ | ✔️ | ❌
+| link:v11/test_compressed_encrypted_v11.pak[] | ❌ | ✔️ | ✔️
+| link:v11/test_encindex_v11.pak[] | ✔️ | ❌ | ❌
+| link:v11/test_compressed_encindex_v11.pak[] | ✔️ | ❌ | ✔️
+| link:v11/test_encrypted_encindex_v11.pak[] | ✔️ | ✔️ | ❌
+| link:v11/test_compressed_encrypted_encindex_v11.pak[] | ✔️ | ✔️ | ✔️
 |====
