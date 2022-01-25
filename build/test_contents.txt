@@ -1,0 +1,3 @@
+"$REPO_PATH\original-files\test.txt" "../../../foo/bar/test.txt"
+"$REPO_PATH\original-files\image\kitten_on_walkway.jpg" "../../../foo/bar/image/kitten_on_walkway.jpg"
+"$REPO_PATH\original-files\lorem\lorem-ipsum.txt" "../../../foo/bar/lorem/lorem-ipsum.txt"
