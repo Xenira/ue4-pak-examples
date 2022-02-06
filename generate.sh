@@ -18,7 +18,7 @@ pak() {
         "$PAK_PATH" $REPO_PATH/pak/v$VERSION/test_encindex_v$VERSION.pak -Create=\"$REPO_PATH\\target\\test_contents.txt\" $CRYPTO_KEYS -encryptindex
     fi
 
-    "$PAK_PATH" $REPO_PATH/pak/v$VERSION/test_compressed_v$VERSION.pak -Create=\"$REPO_PATH\\target\\test_contents.txt\"
+    "$PAK_PATH" $REPO_PATH/pak/v$VERSION/test_compressed_v$VERSION.pak -Create=\"$REPO_PATH\\target\\test_contents.txt\" -compress
     "$PAK_PATH" $REPO_PATH/pak/v$VERSION/test_compressed_encrypted_v$VERSION.pak -Create=\"$REPO_PATH\\target\\test_contents.txt\" $CRYPTO_KEYS -Encrypt -compress
 
     if $INCLUDE_ENCINDEX
