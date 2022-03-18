@@ -58,7 +58,7 @@ VERSION=5
 pak
 
 # Legacy crypto (aes-128)
-CRYPTO_KEYS=-aes=69696969696969696969696969696969
+CRYPTO_KEYS=-aes=iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 
 # Version 4
 PAK_PATH=$ENGINE_PATH$PAK_V4$UNREAL_PAK_PATH
